@@ -1,2 +1,2 @@
-This application is client part of django rest API repo.It uses HttpConnection to send and receive data from API.
+This application is client part of django rest API repo.It uses Volley to send and receive data from API and used HTTPConnection for delete operations.
 it is using json data for communication.It has used get , put and post method also an delete function on mysql table which is refered by server side API.
