@@ -71,4 +71,14 @@ public class User {
         }
         return jsonObject;
     }
+    public User(JSONObject jsonObject){
+        try {
+            uid=jsonObject.getInt("uid");
+            Name=jsonObject.getString("Name");
+            email=jsonObject.getString("email");
+            password=jsonObject.getString("password");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
 }
